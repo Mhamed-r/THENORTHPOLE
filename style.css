@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Woff';
+    src: url('Fonts/DINNeuzeitGrotesk-BoldCond-Regular.ttf');
+  }
+*{
+    margin:0;
+    padding:0;
+    font-family: "Woff", serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.nav-bar{
+    background-color: #191919;
+    color: #969090;
+    padding: 10px;
+    text-align: right;
+    height: 80px;
+    width: 98.7%;
+    position: fixed;
+    z-index: 1000;
+
+}
+.nav-bar img{
+    width: 100px;
+    height: 87px;
+    float: left;
+    margin-left: 3%;
+}
+.nav-bar ul{
+  
+    position: absolute;
+    right: 30%;
+    top: 23%;
+}
+.nav-bar ul li{
+   
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.nav-bar a{
+    
+    color: #969090; 
+    padding: 10px;
+
+}
+.nav-bar a:hover{
+   color: #fff;
+}
+#search {
+    width: 150px;
+    height: 35px;
+    border: none;
+    position: absolute;
+    right: 19%;
+    top: 26%;
+    background-color: #191919;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #969090;
+
+    
+}
+nav #icon_search{
+    position: absolute;
+    right: 20%;
+    top: 32%;
+    color: #969090;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav #user_icon{
+    position: absolute;
+    right: 11%;
+    top: 32%;
+    color: #969090;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav #cart_icon{
+    position: absolute;
+    right: 5%;
+    top: 32%;
+    color: #969090;
+    font-size: 20px;
+    font-weight: 400;
+}
+#clear{
+    clear: left;
+}
+.header{
+    background-image: url('images/Header.png');
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+ 
+}
+.header-text{
+    position: absolute;
+    top: 43%;
+    right: 13.5%; 
+ }
+ .header-text h1{
+    color: #fff;
+    font-size: 90px;
+    /* font-weight: 100px; */
+    /* font-style: bold; */
+    width: 100%;
+    margin-bottom: 25px;
+}
+.header a{
+    color: #fff;
+    padding: 10px 40px;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 24px;
+    font-weight: 400;
+    border: 2px solid #fff;
+    cursor: pointer;
+ 
+}
+.header a:hover{
+    background-color: #fff;
+    color: #191919;
+}
+.header .down-arrow{
+    position: absolute;
+    bottom: 20%;
+    left: 48.7%;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.under-header{
+    background-color: #020202;
+    color: #fff;
+    padding: 50px 0;
+    position: relative;
+    height: 625px;
+    
+}
+.under-header p{
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    top: 44%;
+    left: 10%;
+}
+.under-header a{
+    color: #fff;
+    padding: 10px 40px;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 24px;
+    font-weight: 400;
+    border: 2px solid #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+}
+.under-header-img{
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+   
+}
+
